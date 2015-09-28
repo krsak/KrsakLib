@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Attributes\EnumLabelAttribute.cs" />
     <Compile Include="Collections\AnonymousTypeCollection.cs" />
+    <Compile Include="Extensions\Xml\Linq\XElementExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
