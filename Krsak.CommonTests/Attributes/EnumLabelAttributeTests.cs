@@ -27,7 +27,7 @@ namespace Krsak.Common.Attributes.Tests
 			kepi,
 		}
 		[TestMethod()]
-		[TestCategory("NoKey")]
+		[TestCategory("EnumLabelAttribute NoKey")]
 		[TestCase(false)]
 		[TestCase(true)]
 		public void GetLabelTest_NoKey_piyo()
@@ -38,7 +38,7 @@ namespace Krsak.Common.Attributes.Tests
 			});
 		}
 		[TestMethod()]
-		[TestCategory("NoKey")]
+		[TestCategory("EnumLabelAttribute NoKey")]
 		[TestCase(false)]
 		[TestCase(true)]
 		public void GetLabelTest_NoKey_fuga()
@@ -49,7 +49,7 @@ namespace Krsak.Common.Attributes.Tests
 			});
 		}
 		[TestMethod()]
-		[TestCategory("NoKey")]
+		[TestCategory("EnumLabelAttribute NoKey")]
 		[TestCase(false)]
 		[TestCase(true)]
 		public void GetLabelTest_NoKey_moke()
@@ -60,7 +60,7 @@ namespace Krsak.Common.Attributes.Tests
 			});
 		}
 		[TestMethod()]
-		[TestCategory("NoKey")]
+		[TestCategory("EnumLabelAttribute NoKey")]
 		[TestCase(false)]
 		[TestCase(true)]
 		public void GetLabelTest_NoKey_kepi()
@@ -72,7 +72,7 @@ namespace Krsak.Common.Attributes.Tests
 		}
 
 		[TestMethod()]
-		[TestCategory("Key")]
+		[TestCategory("EnumLabelAttribute Key")]
 		[TestCase("key_aaa", false)]
 		[TestCase("key_bbb", false)]
 		[TestCase("key_ccc", false)]
@@ -89,7 +89,7 @@ namespace Krsak.Common.Attributes.Tests
 			});
 		}
 		[TestMethod()]
-		[TestCategory("Key")]
+		[TestCategory("EnumLabelAttribute Key")]
 		[TestCase("key_aaa", false)]
 		[TestCase("key_bbb", false)]
 		[TestCase("key_ccc", false)]
@@ -106,7 +106,7 @@ namespace Krsak.Common.Attributes.Tests
 			});
 		}
 		[TestMethod()]
-		[TestCategory("Key")]
+		[TestCategory("EnumLabelAttribute Key")]
 		[TestCase("key_aaa", false)]
 		[TestCase("key_bbb", false)]
 		[TestCase("key_ccc", false)]
@@ -130,7 +130,7 @@ namespace Krsak.Common.Attributes.Tests
 			});
 		}
 		[TestMethod()]
-		[TestCategory("Key")]
+		[TestCategory("EnumLabelAttribute Key")]
 		[TestCase("key_aaa", false)]
 		[TestCase("key_bbb", false)]
 		[TestCase("key_ccc", false)]
